@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet"> 
+  <title>Om Ægget og Skægget</title>
+     <meta name="description" content="Ægget og Skægget har fokus på god, nem mad, der ikke går på kompromis med klimaet. Bestil med god samvittighed her."/>
+</head>
+
+<body>
+    
+
+  <!--lånt noget kode fra: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+  <div class="wrapper">
+<a href="index.html"><img id="logo" src="images/logo1.png"></a>
+<div id="omos"> <h1>Om Os</h1></div>      
+    <nav class="site-nav">
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+
+      <ul class="open desktop">
+        <li><a href="bestil.html"><i class="fa fa-database site-nav--icon"></i>Bestil</a></li>
+        <li><a href="om.html"><i class="fa fa-info-circle site-nav--icon"></i>Om</a></li>
+        <li><a href="kontakt.html"><i class="fa fa-paper-plane site-nav--icon"></i>Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+
+    })();
+
+    $('.menu-toggle').click(function() {
+        $('ul').toggleClass('opening');
+        $(this).toggleClass('open');
+    })
+  </script>
+
+  <!--lånt noget kode fra nedenstående stopper her: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+    
+  <!--Start af inhold på siden. Bokse opsat i sections med dertilhørende divs. Boksene er givet classes og id'er og stylet i css.-->     
+  <section id="boks2">    
+        <div class="uoverskrift">
+            <h2>Hvem er Ægget og Skægget?</h2>
+        </div> 
+    <div class="bokscombi">   
+    <div class="bokstekst">Ægget og Skægget er betegnelsen for de to hoveder bag take-away konceptet. 
+Mads Ankjær er Ægget og uddannet kok. Han har tidligere drevet egen restaurant. <br>
+Simon Skovsgaard er Skægget og har erfaring inden for det det socialpædagogiske felt bl.a. med unge asylansøgere og unge.
+Begge har en AU i Serviceøkonomi og en PBA i Innovation samt Entrepreneurship.
+
+</div>
+        <div class="boksbillede"><img id="ansatte" alt="billede af simon og mads" src="images/simonmadsstor.png"> </div>
+        </div> 
+    </section>
+    
+      <section id="boks12">    
+        <div class="uoverskrift">
+            <h2>Værdier</h2>
+        </div> 
+    <div class="bokscombi"> 
+         <div class="boksbillede"><img id="scale" alt="vægt" src="images/scale.png"> </div>
+    <div class="bokstekst">Vi hos Ægget &amp; Skæggets Folkekøkken ønsker at være dit fornuftige alternativ til andet mad udefra. Vi har fokus på at være dygtige på prisen men også på miljøet. Vi tilbereder derfor vores måltider med en større dosis grønt og mindre kød. Måltiderne leveres i genanvendelig pap, så vi også her kan gøre en lille forskel. 
+        </div>
+        </div> 
+    </section>
+     
+          <section id="boks2">    
+        <div class="uoverskrift">
+            <h2>Ansatte</h2>
+        </div> 
+    <div class="bokscombi">   
+    <div class="bokstekst">Vi er en bæredygtig virksomhed, der tager et socialt ansvar.  Vi er igang med at skabe
+en arbejdsplads der kan rumme socialt udsatte med deres særlige udfordringer.
+Vi vil give medarbejderne glæden og håbet tilbage gennem meningsfuldt arbejde, og
+derigennem vejen til fællesskabet. Derudover har vi vores profesionelle kokke, som sørger for at vores mad lever op til jeres standarder. 
+</div>
+        <div class="boksbillede"><img id="ansatte" alt="billede af de ansatte" src="images/ansatte.png"> </div>
+        </div> 
+    </section>
+    
+    <section id="boks3">    
+        <div class="uoverskrift">
+            <h2>Sociale Medier</h2>
+        </div> 
+    <div class="bokscombi">  
+     <div class="boksbillede"><img id="SoMe" alt="Facebook og Instagram" src="images/fbins.png"> </div>    
+    <div class="bokstekst">Vi vil holde jer opdateret gennem vores sociale platforme Facebook og Instagram. Her vil vi dele billedere af den mad, vi serverer, ændringer i menuen og eventuelle begivenheder. Det er også her, du kan give din mening til kende og stille spørgsmål. Hold også øje med madarrangementer i jeres lokalområde og konkurrencer.  </div>
+     </div> 
+    </section>
+    
+<div class="footer">
+  <div class="footer-content">
+  <p>Tlf.: 89 99 99 99 </p>
+  <p>Adr.: Lystrupvej 1</p>
+  <p>Mail: aeggetogskaegget@mail.com</p>
+  <div class="footer-links">
+    <a href="https://www.facebook.com/aeggetogskaegget/"><img id="fb" src="images/facebook-logo.png" alt="facebook" style="width:50px;height:50px;"></a>
+    <a href="https://www.instagram.com/aeggetogskaegget/"><img id="inst" src="images/instagram-logo.png" alt="instagram" style="width:50px;height:50px;"></a>
+  </div>
+</div>
+    </div>
+
+<!--footer end-->
+</body>
+
+</html>
