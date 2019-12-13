@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!--lånt noget kode fra: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+  <div class="wrapper">
+<a href="index.html"><img id="logo" src="images/logo.png"></a>
+    <nav class="site-nav">
+
+
+
+      <div class="menu-toggle">
+
+        <div class="hamburger"></div>
+
+      </div>
+
+
+      <ul class="open desktop">
+
+        <li><a href="bestil.html"><i class="fa fa-database site-nav--icon"></i>Bestil</a></li>
+
+        <li><a href="om.html"><i class="fa fa-info-circle site-nav--icon"></i>Om</a></li>
+
+        <li><a href="kontakt.html"><i class="fa fa-paper-plane site-nav--icon"></i>Kontakt</a></li>
+
+
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+
+
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+
+    _gaq.push(['_trackPageview']);
+
+
+
+    (function() {
+
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+
+    })();
+
+    $('.menu-toggle').click(function() {
+
+
+
+      $('ul').toggleClass('opening');
+
+      $(this).toggleClass('open');
+
+
+
+    })
+  </script>
+
+  <!--lånt noget kode fra nedenstående stopper her: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+      <section id="boks9">
+        <div class="uoverskrift">
+            <h2>Ægget &amp; Skægget</h2>
+        </div>
+    <div id="bokscombi">
+    <div class="bokstekstk">Vi er Ægget &amp; Skægget, også kendt som Simon og Mads.<br> Hvis du skulle have nogle spørgsmål eller lignende, så kan vi fanges på mail eller på telefon. Du kan også følge vores Facebook og Instagram. <br> <br>Rigtig god dag! Hilsen Ægget &amp; Skægget.</div>
+        <div class="boksbillede"><img id="madsogsimon" alt="madsogsimon" src="images/simonmadsstor.png"> </div>
+        </div>
+    </section>
+
+
+    <div class="kontakt-links">
+      <a href="https://www.facebook.com/aeggetogskaegget/"><img id="fb2" src="images/facebook-logo-circle.png" alt="facebook" style="width:100px;height:100px;"></a>
+      <a href="https://www.instagram.com/aeggetogskaegget/"><img id="inst2" src="images/instagram-logo-farver.png" alt="instagram" style="width:100px;height:100px;"></a>
+    </div>
+
+<h2 id="herbor">Her bor vi</h2>
+
+<!--kode er lånt fra: https://www.embedgooglemap.net/ !-->
+<div class="mapouter">
+    <div class="gmap_canvas"><iframe width="375" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=lystrup&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+<!--kode er lånt fra: https://www.embedgooglemap.net/ !-->
+    </div>    </div>
+
+<div class="footer">
+  <div class="footer-content">
+  <p>Tlf.: 89 99 99 99 </p>
+  <p>Adr.: Lystrupvej 1</p>
+  <p>Mail: aeggetogskaegget@mail.com</p>
+  <div class="footer-links">
+    <a href="https://www.facebook.com/aeggetogskaegget/"><img id="fb" src="images/facebook-logo.png" alt="facebook" style="width:50px;height:50px;"></a>
+    <a href="https://www.instagram.com/aeggetogskaegget/"><img id="inst" src="images/instagram-logo.png" alt="instagram" style="width:50px;height:50px;"></a>
+  </div>
+</div>
+    </div>
+
+<!--footer end-->
+</body>
+
+</html>
