@@ -14,7 +14,12 @@
 <body>
   <!--lånt noget kode fra: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
   <div class="wrapper">
-    <a href="index.html"><img id="logo" src="images/logo1.png"></a>
+    <a href="index.html">
+    <picture>
+        <source media="(max-width: 699px)" srcset="images/logo456.png">
+        <source media="(min-width: 700px)" srcset="images/logo41.png">
+        <img id="logo" src="images/logostor.svg" alt="logo">
+    </picture></a>
     <div id="forside"> <h1>Kontakt</h1></div>     
     <nav class="site-nav">
       <div class="menu-toggle">
