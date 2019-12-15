@@ -212,9 +212,9 @@ nav a:focus {
 
     }
     
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 220px;
         width: 300px;
@@ -356,7 +356,7 @@ nav a:focus {
         border-radius: 25px;
     }
 
-    #boks2,
+    .boks2,
     #boks3,
     #boks4,
     #boks9 {
@@ -898,7 +898,7 @@ nav a:focus {
         border-radius: 25px;
     }
 
-    #boks2,
+    .boks2,
     #boks3,
     #boks4,
     #boks9 {
@@ -1080,9 +1080,9 @@ nav a:focus {
 
     }
 
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 180px;
         width: 210px;
@@ -1094,7 +1094,7 @@ nav a:focus {
 
     }
 
-    #bestilboks3 {
+    .bestilboks3 {
 
         margin-bottom: 130px;
     }
@@ -1190,9 +1190,9 @@ nav a:focus {
         margin-top: -100px;
     }
 
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 200px;
         width: 300px;
@@ -1204,7 +1204,7 @@ nav a:focus {
 
     }
 
-    #bestilboks3 {
+    .bestilboks3 {
 
         margin-bottom: 130px;
     }
@@ -1396,7 +1396,7 @@ nav a:focus {
     }
 
 
-    #boks2,
+    .boks2,
     #boks3,
     #boks4,
     #boks9 {
@@ -1534,9 +1534,9 @@ nav a:focus {
 
     }
 
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 220px;
         width: 320px;
@@ -1627,9 +1627,9 @@ nav a:focus {
 
     }
 
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 220px;
         width: 350px;
@@ -1660,9 +1660,9 @@ nav a:focus {
 
 @media only screen and (min-width: 1500px) {
 
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 220px;
         width: 370px;
@@ -1702,9 +1702,9 @@ nav a:focus {
 
 @media only screen and (min-width: 1900px) {
 
-    #bestilboks1,
-    #bestilboks2,
-    #bestilboks3 {
+    .bestilboks1,
+    .bestilboks2,
+    .bestilboks3 {
 
         height: 220px;
         width: 350px;
@@ -1771,7 +1771,7 @@ nav a:focus {
     #boks1,
     #boks0,
     #boks12,
-    #boks2,
+    .boks2,
     #boks3,
     #boks4 {
         width: 1000px;
