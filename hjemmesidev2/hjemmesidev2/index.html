@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet"> 
+  <title>Ægget og Skæggets Folkekøkken - Forside</title>
+    <meta name="description" content="Nem, hurtig og billig Take-away fra Lystrup. Retterne er traditionelle med fokus på sundhed og bæredygtighed. Bestil her."/>
+    <meta name="keywords" content="bæredygtig, mad, take-away, traditionel mad, Lystrup, nem mad, svensk pølseret, Aarhus, traditionel mad">
+    <link rel="icon" type="images/logoimini.png" href="images/logoimini.png">
+    
+</head>
+
+<body>
+  <!--lånt noget kode fra: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+  <div class="wrapper">
+<a href="index.html">
+    <picture>
+        <source media="(max-width: 699px)" srcset="images/logo456.png">
+        <source media="(min-width: 700px)" srcset="images/logo41.png">
+        <img id="logo" src="images/logostor.svg" alt="logo">
+    </picture></a>
+<div id="forside"> <h1>Forside</h1></div>       
+    <nav class="site-nav">
+
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+
+        <ul class="open-desktop">
+
+        <li><a href="bestil.html"><i class="fa fa-database site-nav--icon"></i>Bestil</a></li>
+        <li><a href="om.html"><i class="fa fa-info-circle site-nav--icon"></i>Om</a></li>
+        <li><a href="kontakt.html"><i class="fa fa-paper-plane site-nav--icon"></i>Kontakt</a></li>
+            
+      </ul>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+
+    })();
+
+    $('.menu-toggle').click(function() {
+
+      $('ul').toggleClass('opening');
+
+      $(this).toggleClass('open');
+    })
+  </script>
+
+  <!--lånt noget kode fra nedenstående stopper her: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+  <!--Start af inhold på siden. Bokse opsat i sections med dertilhørende divs. Boksene er givet classes og id'er og stylet i css.-->    
+      <section id="boks1">    
+        <div class="uoverskriftm">
+            <h2>Menu</h2>
+        </div> 
+        <div class="bokscombi">   
+        <div class="bokstekst">Hos Ægget og Skæggets folkekøkken byder vi på klassiske retter, som du kender dem.Prøv vores populære Braiserede Svinekæber eller Svenske pølseret. Alle retterne er til den faste pris af 55 kr. og er klar til at spises inden for 15 min. 
+        <p>Gå til <a href="bestil.html">bestil</a> for at se vores udvalg og vælg, hvad du kunne tænke dig.</p>
+        </div>
+        <div class="boksbillede"><img id="suppe" alt="suppe" src="images/suppe.png"> </div>
+        </div> 
+    </section>
+
+    <section id="boks2">    
+        <div class="uoverskrift1">
+            <h2>Hurtig bestilling</h2>
+        </div> 
+    <div class="bokscombi1">   
+        <div class="boksbillede1"><img id="infograph" alt="inforgraphic" src="images/bestilling.png"> </div>
+            <div class="bokstekst0">Vælg det antal retter du ønsker under ”bestil”. Bestil i bunden af siden og bekræft din ordre. Betaling foregår gennem Mobile Pay eller Dankort. Herfra modtages en kvittering på din ordre. Fra bekræftelse går der 10-15 min før din mad er klar til afhentning, Medbring kvittering og hent nemt bestillingen på vores adresse Lystrupvej 1. 
+            </div>
+        </div> 
+    </section>    
+    
+          <section id="boks2">    
+        <div class="uoverskrift">
+            <h2>Om Os</h2>
+        </div> 
+    <div class="bokscombi">   
+    <div class="bokstekst">Ægget og Skæggets folkekøkken består af passionerede kokke og dygtige medarbejdere, der sørger for du får maden, lige som den skal være. Vi er skabt af Simon og Mads med et fokus på at levere fornuftig take-away til fornuftige priser. Her går man ikke på kompromis med aftensmaden. <br>
+        <a href="om.html"> <p>Læs mere her</p></a> 
+</div>
+        <div class="boksbillede"><img id="ansatte" alt="glade ansatte hos ægget og skægget" src="images/ansatte.png"> </div>
+        </div> 
+    </section>
+    
+    <section id="boks3">    
+        <div class="uoverskrift">
+            <h2>Følg med</h2>
+        </div> 
+    <div class="bokscombi">   
+    <div class="bokstekst">Hold dig opdateret på Facebook og Instagram. Her deler vi billeder af vores tilberedte mad. Her opdaterer vi derudover, hvis der skulle opstå ændringer i menuen.  Del også gerne egne erfaringer med vores mad, så vi kan imødekomme jeres ønsker. </div>
+        <div class="boksbillede"><a href="https://www.facebook.com/aeggetogskaegget/"><img id="SoMe" alt="Facebook og Instagram" src="images/fbins.png"> </a></div>
+        </div> 
+    </section>
+    
+<div class="footer">
+  <div class="footer-content">
+  <p>Tlf.: 89 99 99 99 </p>
+  <p>Adr.: Lystrupvej 1</p>
+  <p>Mail: aeggetogskaegget@mail.com</p>
+  <div class="footer-links">
+    <a href="https://www.facebook.com/aeggetogskaegget/"><img id="fb" src="images/facebook-logo.png" alt="facebook" style="width:50px;height:50px;"></a>
+    <a href="https://www.instagram.com/aeggetogskaegget/"><img id="inst" src="images/instagram-logo.png" alt="instagram" style="width:50px;height:50px;"></a>
+  </div>
+</div>
+    </div>
+<!--footer end-->
+</body>
+
+</html>

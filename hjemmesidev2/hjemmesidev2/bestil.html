@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>Bestil - Ægget og Skæggets Folkekøkken</title>
+  <meta name="description" content="Her kan du bestille vores lækre mad. Bare vælg dit antal, færdiggør din bestilling og så kan du hente din mad inden for 15 minutter!" />
+        <meta name="keywords" content="bæredygtig, mad, take-away, traditionel mad, Lystrup, nem mad, svensk pølseret, Aarhus, traditionel mad">
+    <link rel="icon" type="images/logoimini.png" href="images/logoimini.png">
+   
+</head>
+
+<body>
+  <!--lånt noget kode fra: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+  <div class="wrapper">
+   <a href="index.html">
+    <picture>
+        <source media="(max-width: 699px)" srcset="images/logo456.png">
+        <source media="(min-width: 700px)" srcset="images/logo41.png">
+        <img id="logo" src="images/logostor.svg" alt="logo">
+    </picture></a>
+    <div id="forside">
+      <h1>Bestil</h1>
+    </div>
+    <nav class="site-nav">
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+
+      <ul class="open desktop">
+        <li><a href="bestil.html"><i class="fa fa-database site-nav--icon"></i>Bestil</a></li>
+        <li><a href="om.html"><i class="fa fa-info-circle site-nav--icon"></i>Om</a></li>
+        <li><a href="kontakt.html"><i class="fa fa-paper-plane site-nav--icon"></i>Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+    $('.menu-toggle').click(function() {
+      $('ul').toggleClass('opening');
+      $(this).toggleClass('open');
+    })
+  </script>
+
+  <!--lånt noget kode fra nedenstående stopper her: https://www.jqueryscript.net/menu/Basic-Hamburger-Navigation-Menu-jQuery-CSS.html-->
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 0
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+
+
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty1'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus1').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min1').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty2'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus2').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min2').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty3'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus3').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min3').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty4'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus4').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min4').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty5'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus5').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min5').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty6'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus6').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min6').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty7'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus7').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min7').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+  <script>
+    jQuery(function() {
+      var j = jQuery; //Just a variable for using jQuery without conflicts
+      var addInput = '#qty8'; //This is the id of the input you are changing
+      var n = 0; //n is equal to 1
+
+      //Set default value to n (n = 1)
+      j(addInput).val(n);
+
+      //On click add 1 to n
+      j('.plus8').on('click', function() {
+        j(addInput).val(++n);
+      })
+
+      j('.min8').on('click', function() {
+        //If n is bigger or equal to 1 subtract 1 from n
+        if (n >= 1) {
+          j(addInput).val(--n);
+        } else {
+          //Otherwise do nothing
+        }
+      });
+    });
+  </script>
+  <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+
+
+  <section class="bestilsetup">
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks1">
+        <div class="uoverskrift11">
+          <h2>Svensk Pølseret</h2>
+        </div>
+        <div id="bokscombi1">
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/suppe5.png"> </div>
+        </div>
+      </section>
+
+      <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+
+
+      <div class="knapperbestil">
+        <span class="min button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty" id="qty" maxlength="100" />
+        <span class="plus button">
+          +
+        </span>
+      </div>
+    </section>
+
+
+
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks2">
+        <div class="uoverskrift11">
+          <h2>Braiserede Svinekæber</h2>
+        </div>
+        <div id="bokscombi1">
+
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/svinemums.png"> </div>
+        </div>
+      </section>
+      <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+
+      <div class="knapperbestil">
+        <span class="min1 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty1" id="qty1" maxlength="100" />
+        <span class="plus1 button">
+          +
+        </span>
+      </div>
+    </section>
+
+    <!--her slutter det der er lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+    <section class="bestillingsbokse">
+      <section id="bestilboks3">
+        <div class="uoverskrift11">
+          <h2>Salat</h2>
+        </div>
+        <div id="bokscombi1">
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/salat.png"> </div>
+        </div>
+      </section>
+
+      <div class="knapperbestil">
+        <span class="min2 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty2" id="qty2" maxlength="100" />
+        <span class="plus2 button">
+          +
+        </span>
+      </div>
+    </section>
+
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks1">
+        <div class="uoverskrift11">
+          <h2>Suppe</h2>
+        </div>
+        <div id="bokscombi1">
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/salat.png"> </div>
+        </div>
+      </section>
+      <div class="knapperbestil">
+        <span class="min3 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty3" id="qty3" maxlength="100" />
+        <span class="plus3 button">
+          +
+        </span>
+      </div>
+    </section>
+
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks2">
+        <div class="uoverskrift11">
+          <h2>Suppe</h2>
+        </div>
+        <div id="bokscombi1">
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/suppe5.png"> </div>
+        </div>
+      </section>
+
+      <div class="knapperbestil">
+        <span class="min4 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty4" id="qty4" maxlength="100" />
+        <span class="plus4 button">
+          +
+        </span>
+      </div>
+    </section>
+
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks3">
+        <div class="uoverskrift11">
+          <h2>Suppe</h2>
+        </div>
+        <div id="bokscombi1">
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/svinemums.png"> </div>
+        </div>
+      </section>
+
+      <div class="knapperbestil">
+        <span class="min5 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty5" id="qty5" maxlength="100" />
+        <span class="plus5 button">
+          +
+        </span>
+      </div>
+    </section>
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks1">
+        <div class="uoverskrift11">
+          <h2>Braiserede Svinekæber</h2>
+        </div>
+        <div id="bokscombi1">
+
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/svinemums.png"> </div>
+        </div>
+      </section>
+      <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+
+      <div class="knapperbestil">
+        <span class="min6 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty6" id="qty6" maxlength="100" />
+        <span class="plus6 button">
+          +
+        </span>
+      </div>
+    </section>
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks2">
+        <div class="uoverskrift11">
+          <h2>Braiserede Svinekæber</h2>
+        </div>
+        <div id="bokscombi1">
+
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/salat.png"> </div>
+        </div>
+      </section>
+      <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+
+      <div class="knapperbestil">
+        <span class="min7 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty7" id="qty7" maxlength="100" />
+        <span class="plus7 button">
+          +
+        </span>
+      </div>
+    </section>
+
+    <section class="bestillingsbokse">
+      <section id="bestilboks3">
+        <div class="uoverskrift11">
+          <h2>Braiserede Svinekæber</h2>
+        </div>
+        <div id="bokscombi1">
+
+          <div class="boksbillede1"><img id="suppe1" alt="suppe" src="images/suppe5.png"> </div>
+        </div>
+      </section>
+      <!--lånt fra: https://codepen.io/OmarShaheen/pen/LmzRpX-->
+
+      <div class="knapperbestil">
+        <span class="min8 button">
+          -
+        </span>
+        <input class="textbox" type="text" name="qty8" id="qty8" maxlength="100" />
+        <span class="plus8 button">
+          +
+        </span>
+      </div>
+    </section>
+
+
+</section>
+    
+<a href='bon.html'><button id="bestilknap">Bestil</button></a>
+
+
+    <!--footer start-->
+
+    <div class="footer">
+      <div class="footer-content">
+        <p>Tlf.: 89 99 99 99 </p>
+        <p>Adr.: Lystrupvej 1</p>
+        <p>Mail: aeggetogskaegget@mail.com</p>
+        <div class="footer-links">
+          <a href="https://www.facebook.com/aeggetogskaegget/"><img id="fb" src="images/facebook-logo.png" alt="facebook" style="width:50px;height:50px;"></a>
+          <a href="https://www.instagram.com/aeggetogskaegget/"><img id="inst" src="images/instagram-logo.png" alt="instagram" style="width:50px;height:50px;"></a>
+        </div>
+      </div>
+    </div>
+
+    <!--footer end-->
+</body>
+
+</html>
